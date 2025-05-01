@@ -8,5 +8,11 @@ namespace MHRSHastaneSimulasyonu.UI.Models
 {
     public class Doktor
     {
+        public int Id { get; set; }
+        public string AdSoyad { get; set; }
+        public string BolumId { get; set; } 
+        public Bolum Bolum { get; set; }
+        public string Telefon { get; set; }
+        public List<Randevu> Randevular { get; set; }
     }
 }

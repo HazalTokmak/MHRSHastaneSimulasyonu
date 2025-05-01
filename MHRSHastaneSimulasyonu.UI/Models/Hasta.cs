@@ -8,5 +8,10 @@ namespace MHRSHastaneSimulasyonu.UI.Models
 {
     public class Hasta
     {
+        public int Id { get; set; }
+        public string AdSoyad { get; set; }
+        public DateTime DogumTarihi { get; set; }
+
+        public List<Randevu> Randevular { get; set; }
     }
 }
